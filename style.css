@@ -19,7 +19,7 @@ body {
   background-position: center;
   height: 100px;
   align-items: center;
-  position:fixed;
+  position: fixed;
 }
 .header:hover {
   background-image: url(./mirrorheader.jpg);
@@ -27,20 +27,19 @@ body {
 }
 .left {
   flex: 1;
-   
 }
-.left a{
-    text-decoration: none;
-    color: white;
-   margin-left: 150px;
-   
+.left a {
+  text-decoration: none;
+  color: white;
+  margin-left: 150px;
 }
 .middle h1 {
-
   padding: 20px 0px 20px 0px;
 }
-.middle a {color: white;
-text-decoration: none;}
+.middle a {
+  color: white;
+  text-decoration: none;
+}
 .middle {
   flex: 1;
   display: flex;
@@ -54,43 +53,69 @@ text-decoration: none;}
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;  
+  align-items: center;
 }
 .right a {
   text-decoration: none;
   color: white;
-  
 }
 .right svg {
   height: 23px;
   padding-left: 5px;
   padding-bottom: 4px;
-
 }
-.search svg{height: 25px;
-margin-left: 50px;
-padding-top: 2px;
-cursor: pointer;}
-.banner{margin-top: 100px;
-    background-image: url(./banner.jpg);
-    background-position: center;
-    background-size: cover;
-width: 100%;
-height: 500px;}
-.sale{
-    font-weight: bold;
-    font-size: 4em;
-    position: absolute;
-    margin: 180px 0px 0px 80px;
+.search svg {
+  height: 25px;
+  margin-left: 50px;
+  padding-top: 2px;
+  cursor: pointer;
 }
- .everything{ 
-     font-size: 2em ;
-    position: absolute;
-    margin: 250px 0px 0px 82px;
-    letter-spacing: 0.5em;} 
+.banner {
+  margin-top: 100px;
+  background-image: url(./banner.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+.sale {
+  font-weight: bold;
+  font-size: 4em;
+  position: absolute;
+  margin: 180px 0px 0px 80px;
+}
+.everything {
+  font-size: 2em;
+  position: absolute;
+  margin: 250px 0px 0px 82px;
+  letter-spacing: 0.5em;
+}
 
+.mess {
+  font-size: 1.2em;
+  position: absolute;
+  margin: 300px 0px 0px 82px;
+}
+.policy {
+  background-color: rgb(226, 221, 221);
+  margin-top: 600px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 50px 0px 50px;
+  height: 70px;
+}
+.freeship {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
-.mess{ font-size: 1.2em ;
-    position: absolute;
-    margin: 300px 0px 0px 82px;
-} 
+.trucklogo svg {
+  height: 25px;
+  padding-right: 10px;
+}
