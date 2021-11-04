@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 650px;
+  background-image: url(./bglogin.jfif);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.username {width: 300px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+  height: 20px;
+
+  padding: 12px 20px;
+
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+}
+.username[type="text"]:focus {
+  border: 3px solid #555;
+}
+.pass {width: 300px;
+  margin-bottom: 10px;
+  height: 20px;
+
+  padding: 12px 20px;
+
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  border-radius: 5px;
+}
+.pass[type="password"]:focus {
+  border: 3px solid #555;
+}
+.btn {margin-bottom: 10px;
+width: 345px;
+background-color: rgb(241, 212, 158);
+border : none;
+border-radius: 5px ;
+height: 30px;
+}
+.btn:hover{
+    background-color: rgb(250, 199, 103);
+    transition: 0.5s;
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+}
+
