@@ -59,20 +59,20 @@
   }
   .repass[type="password"]:focus {
     border: 3px solid #555;}
-  .btn {margin-bottom: 10px;
+  .regisbtn {margin-bottom: 10px;
   width: 345px;
   background-color: rgb(241, 212, 158);
   border : none;
   border-radius: 5px ;
   height: 30px;
   }
-  .btn:hover{
+  .regisbtn:hover{
       background-color: rgb(250, 199, 103);
       transition: 0.5s;
   }
-  .btn a{
+  .regisbtn a{
       text-decoration: none;
       color: black;
   }
   
-  
+ 

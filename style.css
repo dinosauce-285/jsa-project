@@ -272,13 +272,13 @@ height: 250px ;
   padding-top: 50px;
 }
 .fb{position: absolute;
- margin: 3000px 0px 0px 600px;
-  height: 50px;
+ margin: 3005px 0px 0px 600px;
+  height: 40px;
   cursor: pointer;
 
 }
 .yt{position: absolute;
-  margin: 3000px 0px 0px 650px;
+  margin: 3000px 0px 0px 647px;
    height: 50px;
    cursor: pointer;
  }
