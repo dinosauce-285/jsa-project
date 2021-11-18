@@ -35,6 +35,7 @@ function dangKi() {
     let json = JSON.stringify(users);
 
     localStorage.setItem("users", json);
+    location.replace("http://127.0.0.1:5500/login.html")
   }
   if (rps.value != ps.value) {
     const wrong = document.createElement("div");
@@ -51,25 +52,8 @@ function dangKi() {
     wrongrps.style.justifyContent = "center";
     wrongrps.style.position = "absolute";
   }
-}
 
-rbtn.onclick = dangKi;
-
-let lbtn = document.getElementById('loginBtn');
-function logIn() {
-  let iUsername = document.getElementById("nhapUserName");
-  let iPassword = document.getElementById("nhapPass");
-  let data = localStorage.getItem("users");
-  let aData = JSON.parse(data);
-  function check (usernameAndPassword) {
-    if (usernameAndPassword.username == iUsername.value) {
-      let checkData = aData.find(function () {
-        return usernameAndPassword.username == iUsername.value ;
-      });
-       console.log(checkData);
-    }
- 
-  }
-check (usernameAndPassword);
 }
-lbtn.onclick = logIn
+rbtn.onclick = dangKi
+
+
