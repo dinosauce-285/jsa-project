@@ -19,7 +19,7 @@ if (findData.password != String(iPass.value)) {
 
     wrong.innerHTML = ` <div>BẠN ĐÃ NHẬP LẠI MẬT KHẨU SAI</div>`;
 
-    const wrongrps = document.getElementById("wrongrepass");
+    const wrongrps = document.getElementById("wrongrepass ");
     wrongrps.appendChild(wrong);
     wrongrps.style.color = "red";
     wrongrps.style.width = "500px";
